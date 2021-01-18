@@ -1,0 +1,34 @@
+{
+  "name": "routing",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-inzi": "^1.0.7",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0",
+    "postmark": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cls+l && node server.js"
+  },
+  "author": "M Abdullah",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/007Abdullah/Routing-Node-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/007Abdullah/Routing-Node-JS/issues"
+  },
+  "homepage": "https://github.com/007Abdullah/Routing-Node-JS#readme",
+  "description": ""
+}

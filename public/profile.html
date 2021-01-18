@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Home Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        div {
+            border: 2px solid black;   
+            padding: 50px 50px 50px 50px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-family:serif;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body onload="profile()">
+    <div style=" width: 30%;">
+        <h3>USER PROFILE</h3>
+        <label>Name :</label>
+        <span id="dis_name"></span>
+        <br>
+        <br>
+        <label>Email :</label>
+        <span id="dis_email"></span>
+        <br>
+        <br>
+        <label>Phone :</label>
+        <span id="dis_phone"></span>
+        <br>
+        <br>
+        <label >Gender :</label>
+        <span id="dis_gender"></span>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
